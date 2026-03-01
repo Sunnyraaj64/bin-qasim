@@ -807,6 +807,11 @@ header {
 .header-logo img{
 	width: 100px;
 }
+@media (max-width: 767px) {
+	.header-logo img{
+		width: 60px;
+	}
+}
 
 .header-4 {
 	position: absolute;

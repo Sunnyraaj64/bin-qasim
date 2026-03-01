@@ -341,7 +341,7 @@
 
     .scroll-icon {
         position: absolute;
-        left: 50%;
+        left: 88%;
         top: -40px;
         transform: translateX(-50%);
         width: 70px;
@@ -383,7 +383,7 @@
             left: 93%;
 
             @include breakpoint (max-xxl){
-                left: 50%;
+                left: 88%;
             }
        }
     }
@@ -419,7 +419,7 @@
            left: 93%;
 
            @include breakpoint (max-xxl){
-                left: 50%;
+                left: 88%;
                 top: 5%;
            }
 
