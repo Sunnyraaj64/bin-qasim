@@ -1,0 +1,7 @@
+{
+    "name": "binqasim/api",
+    "description": "Form mail API with PHPMailer",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

@@ -1,0 +1,143 @@
+/*
+Theme Name: Sungo 
+Author: theme_ocean
+Author URI: https://themeforest.net/user/theme_ocean
+Description: Sungo - Ecology & Solar Energy HTML Template<
+Version: 1.0.0
+*/
+
+/*CSS Table Of Content Ends Here*/
+
+//>> Bootstrap <<//
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+//>> Basic Start <<//
+
+//>> Mixins <<//
+@import "_mixins";
+//>> Variables <<//	
+@import "_variables";
+//>> Buttons <<//
+@import "_buttons";
+//>> Typography <<//
+@import "_typography";
+//>> Basic End <<//	
+
+@import "_customDropdown";
+
+//>> Template Section Style Start <<//
+
+//>> About <<//
+@import "_about";
+
+//>> Animation <<//
+@import "_animation";
+
+//>> Brand <<//
+@import "_brand";
+
+//>> Contact <<//
+@import "_contact";
+
+//>> Cta <<//
+@import "_cta";
+
+//>> Faq <<//
+@import "_faq";
+
+//>> Feature <<//
+@import "_feature";
+
+//>> Footer <<//
+@import "_footer";
+
+//>> Header <<//
+@import "_header";
+
+//>> Helping <<//
+@import "_helping";
+
+//>> Hero <<//
+@import "_hero";
+
+//>> Marquee <<//
+@import "_marquee";
+
+//>> MeanMenu <<//
+@import "_meanmenu";
+
+//>> News <<//
+@import "_news";
+
+//>> Pricing <<//
+@import "_pricing";
+
+//>> Preloader <<//
+@import "_preloader";
+
+//>> Project <<//
+@import "_project";
+
+//>> Section <<//
+@import "_section";
+
+//>> Service <<//
+@import "_service";
+
+//>> Team <<//
+@import "_team";
+
+//>> Testimonial <<//
+@import "_testimonial";
+
+//>> Google Translate (hidden – we use our own LanguageSelector) <<//
+.google-translate-hidden,
+#google_translate_element,
+.goog-te-banner-frame,
+.skiptranslate,
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+body .skiptranslate {
+  display: none !important;
+}
+body.top { overflow: auto !important; }
+/* Remove extra top space Google Translate injects on body (top: 48px for banner) */
+body {
+  top: 0 !important;
+}
+
+/* Fix Arabic/RTL: Google Translate can set font-size: 0 on body and hide main content */
+html.translated-rtl body,
+html[dir="rtl"] body {
+  font-size: 16px !important;
+}
+
+/* Arabic only: remove intermittent left-side white bar from Google Translate / RTL */
+html.translated-rtl,
+html[dir="rtl"] {
+  overflow-x: hidden;
+}
+html.translated-rtl body,
+html[dir="rtl"] body {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  left: 0 !important;
+  position: relative !important;
+  overflow-x: hidden;
+}
+html.translated-rtl #root,
+html[dir="rtl"] #root {
+  font-size: 16px !important;
+  min-height: 100vh !important;
+  display: block !important;
+}
+/* Restore font sizing where Google wraps text in <font> tags */
+html.translated-rtl font,
+html[dir="rtl"] font {
+  font-size: inherit !important;
+}
+
+//>> Template Section Style End <<//
