@@ -38,7 +38,7 @@ const Offer = () => {
                                 <div className="shape-bottom">
                                     <img src="/img/shape/offer-bottom.png" alt="shape-img" />
                                 </div>
-                                <div className="icon">{item.icon}</div>
+                                {/* <div className="icon">{item.icon}</div> */}
                                 <div className="content">
                                     <h5>{item.title}</h5>
                                 </div>
