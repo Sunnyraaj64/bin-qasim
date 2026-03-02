@@ -1,7 +1,7 @@
 import './whatsappButton.scss'
 
 const WhatsAppButton = () => {
-    const phoneNumber = '+97158881493'
+    const phoneNumber = '971588819493'
     const whatsappUrl = `https://wa.me/${phoneNumber}`
 
     return (
