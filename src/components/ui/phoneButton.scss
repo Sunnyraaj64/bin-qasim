@@ -1,0 +1,57 @@
+.phone-button {
+    position: fixed;
+    bottom: 40px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff5a5f; /* red like your screenshot */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(255, 90, 95, 0.4);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 20px rgba(255, 90, 95, 0.6);
+        background-color: #e14c50;
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+
+    .phone-icon {
+        width: 28px;
+        height: 28px;
+        fill: #ffffff;
+    }
+
+    animation: pulse-phone 2s infinite;
+}
+
+@keyframes pulse-phone {
+    0% {
+        box-shadow: 0 4px 12px rgba(255, 90, 95, 0.4);
+    }
+    50% {
+        box-shadow: 0 4px 20px rgba(255, 90, 95, 0.6);
+    }
+    100% {
+        box-shadow: 0 4px 12px rgba(255, 90, 95, 0.4);
+    }
+}
+
+@media (max-width: 768px) {
+    .phone-button {
+        width: 56px;
+        height: 56px;
+        bottom: 15px;
+        left: 15px;
+    }
+}
+
