@@ -37,14 +37,14 @@ const ContactForm = () => {
                 <div className="row g-4">
                     <div className="col-lg-6 wow slideUp" data-delay=".3">
                         <div className="form-clt">
-                            <span>Your name*</span>
-                            <input type="text" name="name" id="name" placeholder="Your Name" required />
+                            <span>Name*</span>
+                            <input type="text" name="name" id="name" placeholder="Name" required />
                         </div>
                     </div>
                     <div className="col-lg-6 wow slideUp" data-delay=".5">
                         <div className="form-clt">
-                            <span>Your Email*</span>
-                            <input type="email" name="email" id="email" placeholder="Your Email" required />
+                            <span>Email*</span>
+                            <input type="email" name="email" id="email" placeholder="Email" required />
                         </div>
                     </div>
                     <div className="col-lg-12 wow slideUp" data-delay=".7">

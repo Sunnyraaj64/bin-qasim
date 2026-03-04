@@ -71,14 +71,14 @@ const AppointmentForm = () => {
                             <div className="row g-4">
                                 <div className="col-lg-6 wow slideUp" data-delay=".3">
                                     <div className="form-clt">
-                                        <span>Your name*</span>
-                                        <input type="text" name="name" id="appointment-name" placeholder="Your Name" required />
+                                        <span>Name*</span>
+                                        <input type="text" name="name" id="appointment-name" placeholder="Name" required />
                                     </div>
                                 </div>
                                 <div className="col-lg-6 wow slideUp" data-delay=".5">
                                     <div className="form-clt">
-                                        <span>Your Email*</span>
-                                        <input type="email" name="email" id="appointment-email" placeholder="Your Email" required />
+                                        <span>Email*</span>
+                                        <input type="email" name="email" id="appointment-email" placeholder="Email" required />
                                     </div>
                                 </div>
                                 <div className="col-lg-6 wow slideUp" data-delay=".7">

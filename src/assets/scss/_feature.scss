@@ -29,7 +29,9 @@
     background-color: $theme-color;
     @include flex;
     justify-content: space-between;
-    gap: 50px;
+    // gap: 50px;
+    flex-direction: column;
+    align-items: start;
     margin-right: -25%;
     position: relative;
     z-index: 9;
@@ -130,7 +132,9 @@
             span {
                 color: $white;
                 margin-bottom: 20px;
-                display: inline-block;
+                // display: inline-block;
+                display: flex;
+                align-items: start;
             }
 
             input,
