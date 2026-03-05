@@ -48,3 +48,8 @@
         }
     }
 }
+@media (max-width: 575px) {
+    .custom-dropdown .dropdown-list {
+        position: static;
+    }
+}
